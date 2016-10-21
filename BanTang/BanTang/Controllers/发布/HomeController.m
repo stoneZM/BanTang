@@ -8,6 +8,8 @@
 
 #import "HomeController.h"
 #import "TestViewController.h"
+#import "SearchBarBtn.h"
+#import "ZMSearchBarController.h"
 @interface HomeController ()
 @property (nonatomic,strong)UIView* myview;
 @end
@@ -19,10 +21,6 @@
     self.view.backgroundColor = [UIColor whiteColor];
     [self setNavi];
 }
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    TestViewController* vc = [[TestViewController alloc]init];
-    [self.navigationController pushViewController:vc animated:YES];
-}
 -(void)setNavi{
     UIImageView* leftImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"jingxuan_navi_left"]];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:leftImageView];
@@ -31,6 +29,17 @@
     [rightBtn setBackgroundImage:[UIImage imageNamed:@"guide_btn_remind"] forState:UIControlStateNormal];
     [rightBtn sizeToFit];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:rightBtn];
+    SearchBarBtn* searchBtn = [[SearchBarBtn alloc]init];
+    [searchBtn addTarget:self action:@selector(popSearchVC) forControlEvents:UIControlEventTouchUpInside];
+    self.navigationItem.titleView = searchBtn;
+    searchBtn.frame = CGRectMake(0, 0, 200, 35);
+}
+/*
+ *  按钮的事件监听
+ */
+-(void)popSearchVC{
+    ZMSearchBarController* searchVC = [[ZMSearchBarController alloc]init];;
+    [self.navigationController pushViewController:searchVC animated:YES];
 }
 -(void)rightBtn{
     ZMLogfunc;

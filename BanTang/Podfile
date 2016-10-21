@@ -8,5 +8,9 @@ target 'BanTang' do
   # Pods for BanTang
 
   pod 'AFNetworking', '~> 3.0'
-
+  pod 'Masonry'
+  pod 'MJRefresh'
+  pod 'SDWebImage'
+  pod 'SVProgressHUD'
+  pod 'MJExtension'
 end

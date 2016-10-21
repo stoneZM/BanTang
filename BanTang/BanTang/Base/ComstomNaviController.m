@@ -14,6 +14,9 @@
 
 @implementation ComstomNaviController
 
++(void)initialize{
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@""] forBarMetrics:UIBarMetricsDefault];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

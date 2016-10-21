@@ -7,7 +7,8 @@
 //
 
 #import "CategoryController.h"
-
+#import "ZMSearchBarController.h"
+#import "SearchBarBtn.h"
 @interface CategoryController ()
 
 @end
@@ -17,6 +18,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    [self addSearchBtnToView];
 }
+
+-(void)addSearchBtnToView{
+    SearchBarBtn* bar = [[SearchBarBtn alloc]init];
+    [self.view addSubview:bar];
+    [bar addTarget:self action:@selector(popSearchVC) forControlEvents:UIControlEventTouchUpInside];
+    bar.frame = CGRectMake(0, 64,300, 30);
+}
+-(void)popSearchVC{
+    ZMSearchBarController* searchVC = [[ZMSearchBarController alloc]init];;
+    [self.navigationController pushViewController:searchVC animated:YES];
+}
+
+
+
 
 @end

@@ -20,6 +20,9 @@
 		8E4CEC7A1DB9CC4100B17308 /* ComstomNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CEC791DB9CC4100B17308 /* ComstomNaviController.m */; };
 		8E4CEC7D1DB9CEB700B17308 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CEC7C1DB9CEB700B17308 /* TestViewController.m */; };
 		8E4CEC831DB9E37D00B17308 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CEC821DB9E37D00B17308 /* UIView+Extension.m */; };
+		8EAA01BE1DBA55F0003EB3C1 /* SearchBarBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAA01BD1DBA55F0003EB3C1 /* SearchBarBtn.m */; };
+		8EAA01C51DBA56EC003EB3C1 /* ZMSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAA01C21DBA56EC003EB3C1 /* ZMSearchBar.m */; };
+		8EAA01C61DBA56EC003EB3C1 /* ZMSearchBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAA01C41DBA56EC003EB3C1 /* ZMSearchBarController.m */; };
 		8EFA3F6B1DB91FF400B71650 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3F6A1DB91FF400B71650 /* UINavigationBar+Awesome.m */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +52,12 @@
 		8E4CEC7E1DB9E00000B17308 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8E4CEC811DB9E37D00B17308 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		8E4CEC821DB9E37D00B17308 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		8EAA01BC1DBA55F0003EB3C1 /* SearchBarBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchBarBtn.h; path = ../BanTang/Controllers/SearchBarBtn.h; sourceTree = "<group>"; };
+		8EAA01BD1DBA55F0003EB3C1 /* SearchBarBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchBarBtn.m; path = ../BanTang/Controllers/SearchBarBtn.m; sourceTree = "<group>"; };
+		8EAA01C11DBA56EC003EB3C1 /* ZMSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMSearchBar.h; sourceTree = "<group>"; };
+		8EAA01C21DBA56EC003EB3C1 /* ZMSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMSearchBar.m; sourceTree = "<group>"; };
+		8EAA01C31DBA56EC003EB3C1 /* ZMSearchBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMSearchBarController.h; sourceTree = "<group>"; };
+		8EAA01C41DBA56EC003EB3C1 /* ZMSearchBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMSearchBarController.m; sourceTree = "<group>"; };
 		8EFA3F691DB91FF400B71650 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
 		8EFA3F6A1DB91FF400B71650 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
 		93268249273D0D879FD1E8E7 /* Pods-BanTang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanTang.release.xcconfig"; path = "Pods/Target Support Files/Pods-BanTang/Pods-BanTang.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +117,7 @@
 				8E25C9AD1DB8CB5D008F5EC3 /* AppDelegate.h */,
 				8E25C9AE1DB8CB5D008F5EC3 /* AppDelegate.m */,
 				8E25C9C11DB8E210008F5EC3 /* Base */,
+				8EAA01BF1DBA56DC003EB3C1 /* Others */,
 				8E25C9C21DB8E210008F5EC3 /* Controllers */,
 				8E25C9C41DB8E210008F5EC3 /* Models */,
 				8E25C9C51DB8E210008F5EC3 /* Views */,
@@ -319,6 +329,28 @@
 			path = frame;
 			sourceTree = "<group>";
 		};
+		8EAA01BF1DBA56DC003EB3C1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				8EAA01C01DBA56EC003EB3C1 /* ZMSearchBar */,
+			);
+			name = Others;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8EAA01C01DBA56EC003EB3C1 /* ZMSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				8EAA01BC1DBA55F0003EB3C1 /* SearchBarBtn.h */,
+				8EAA01BD1DBA55F0003EB3C1 /* SearchBarBtn.m */,
+				8EAA01C11DBA56EC003EB3C1 /* ZMSearchBar.h */,
+				8EAA01C21DBA56EC003EB3C1 /* ZMSearchBar.m */,
+				8EAA01C31DBA56EC003EB3C1 /* ZMSearchBarController.h */,
+				8EAA01C41DBA56EC003EB3C1 /* ZMSearchBarController.m */,
+			);
+			path = ZMSearchBar;
+			sourceTree = "<group>";
+		};
 		8EFA3F681DB91FF400B71650 /* Catagory */ = {
 			isa = PBXGroup;
 			children = (
@@ -451,13 +483,16 @@
 			files = (
 				8E25C9DB1DB8E689008F5EC3 /* HomeController.m in Sources */,
 				8E25C9AF1DB8CB5D008F5EC3 /* AppDelegate.m in Sources */,
+				8EAA01C61DBA56EC003EB3C1 /* ZMSearchBarController.m in Sources */,
 				8E4CEC831DB9E37D00B17308 /* UIView+Extension.m in Sources */,
 				8E25C9C91DB8E26F008F5EC3 /* MainViewController.m in Sources */,
 				8E25C9AC1DB8CB5D008F5EC3 /* main.m in Sources */,
 				8E4CEC7D1DB9CEB700B17308 /* TestViewController.m in Sources */,
 				8EFA3F6B1DB91FF400B71650 /* UINavigationBar+Awesome.m in Sources */,
 				8E25C9E11DB8E6B1008F5EC3 /* CategoryController.m in Sources */,
+				8EAA01BE1DBA55F0003EB3C1 /* SearchBarBtn.m in Sources */,
 				8E25C9E71DB8E6CB008F5EC3 /* MeController.m in Sources */,
+				8EAA01C51DBA56EC003EB3C1 /* ZMSearchBar.m in Sources */,
 				8E4CEC7A1DB9CC4100B17308 /* ComstomNaviController.m in Sources */,
 				8E25C9DE1DB8E696008F5EC3 /* TopController.m in Sources */,
 			);
