@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CF271BAEE2D6EA7434B0B59 /* libPods-BanTang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 937540194B2A030F87B90ADA /* libPods-BanTang.a */; };
+		8E25C9AC1DB8CB5D008F5EC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25C9AB1DB8CB5D008F5EC3 /* main.m */; };
+		8E25C9AF1DB8CB5D008F5EC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25C9AE1DB8CB5D008F5EC3 /* AppDelegate.m */; };
+		8E25C9B71DB8CB5D008F5EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E25C9B61DB8CB5D008F5EC3 /* Assets.xcassets */; };
+		8E25C9BA1DB8CB5D008F5EC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E25C9B81DB8CB5D008F5EC3 /* LaunchScreen.storyboard */; };
+		8E25C9C91DB8E26F008F5EC3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25C9C81DB8E26F008F5EC3 /* MainViewController.m */; };
+		8E25C9DB1DB8E689008F5EC3 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25C9DA1DB8E689008F5EC3 /* HomeController.m */; };
+		8E25C9DE1DB8E696008F5EC3 /* TopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25C9DD1DB8E696008F5EC3 /* TopController.m */; };
+		8E25C9E11DB8E6B1008F5EC3 /* CategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25C9E01DB8E6B1008F5EC3 /* CategoryController.m */; };
+		8E25C9E71DB8E6CB008F5EC3 /* MeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25C9E61DB8E6CB008F5EC3 /* MeController.m */; };
+		8E4CEC7A1DB9CC4100B17308 /* ComstomNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CEC791DB9CC4100B17308 /* ComstomNaviController.m */; };
+		8E4CEC7D1DB9CEB700B17308 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CEC7C1DB9CEB700B17308 /* TestViewController.m */; };
+		8E4CEC831DB9E37D00B17308 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CEC821DB9E37D00B17308 /* UIView+Extension.m */; };
+		8EFA3F6B1DB91FF400B71650 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3F6A1DB91FF400B71650 /* UINavigationBar+Awesome.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		78434EEAFD537AFC24BB44B2 /* Pods-BanTang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanTang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BanTang/Pods-BanTang.debug.xcconfig"; sourceTree = "<group>"; };
+		8E25C9A71DB8CB5D008F5EC3 /* BanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E25C9AB1DB8CB5D008F5EC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E25C9AD1DB8CB5D008F5EC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E25C9AE1DB8CB5D008F5EC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E25C9B61DB8CB5D008F5EC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E25C9B91DB8CB5D008F5EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E25C9BB1DB8CB5D008F5EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E25C9C71DB8E26F008F5EC3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8E25C9C81DB8E26F008F5EC3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8E25C9D91DB8E689008F5EC3 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeController.h; path = "../发布/HomeController.h"; sourceTree = "<group>"; };
+		8E25C9DA1DB8E689008F5EC3 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeController.m; path = "../发布/HomeController.m"; sourceTree = "<group>"; };
+		8E25C9DC1DB8E696008F5EC3 /* TopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopController.h; sourceTree = "<group>"; };
+		8E25C9DD1DB8E696008F5EC3 /* TopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopController.m; sourceTree = "<group>"; };
+		8E25C9DF1DB8E6B1008F5EC3 /* CategoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryController.h; sourceTree = "<group>"; };
+		8E25C9E01DB8E6B1008F5EC3 /* CategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryController.m; sourceTree = "<group>"; };
+		8E25C9E51DB8E6CB008F5EC3 /* MeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeController.h; sourceTree = "<group>"; };
+		8E25C9E61DB8E6CB008F5EC3 /* MeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeController.m; sourceTree = "<group>"; };
+		8E4CEC781DB9CC4100B17308 /* ComstomNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComstomNaviController.h; sourceTree = "<group>"; };
+		8E4CEC791DB9CC4100B17308 /* ComstomNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComstomNaviController.m; sourceTree = "<group>"; };
+		8E4CEC7B1DB9CEB700B17308 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		8E4CEC7C1DB9CEB700B17308 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		8E4CEC7E1DB9E00000B17308 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8E4CEC811DB9E37D00B17308 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		8E4CEC821DB9E37D00B17308 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		8EFA3F691DB91FF400B71650 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		8EFA3F6A1DB91FF400B71650 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		93268249273D0D879FD1E8E7 /* Pods-BanTang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanTang.release.xcconfig"; path = "Pods/Target Support Files/Pods-BanTang/Pods-BanTang.release.xcconfig"; sourceTree = "<group>"; };
+		937540194B2A030F87B90ADA /* libPods-BanTang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BanTang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E25C9A41DB8CB5D008F5EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF271BAEE2D6EA7434B0B59 /* libPods-BanTang.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2068D477608E66BE2EA2D0B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78434EEAFD537AFC24BB44B2 /* Pods-BanTang.debug.xcconfig */,
+				93268249273D0D879FD1E8E7 /* Pods-BanTang.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		23859141C3860830A86704E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				937540194B2A030F87B90ADA /* libPods-BanTang.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E25C99E1DB8CB5D008F5EC3 = {
+			isa = PBXGroup;
+			children = (
+				8E25C9A91DB8CB5D008F5EC3 /* BanTang */,
+				8E25C9A81DB8CB5D008F5EC3 /* Products */,
+				2068D477608E66BE2EA2D0B1 /* Pods */,
+				23859141C3860830A86704E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E25C9A81DB8CB5D008F5EC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E25C9A71DB8CB5D008F5EC3 /* BanTang.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E25C9A91DB8CB5D008F5EC3 /* BanTang */ = {
+			isa = PBXGroup;
+			children = (
+				8E25C9AD1DB8CB5D008F5EC3 /* AppDelegate.h */,
+				8E25C9AE1DB8CB5D008F5EC3 /* AppDelegate.m */,
+				8E25C9C11DB8E210008F5EC3 /* Base */,
+				8E25C9C21DB8E210008F5EC3 /* Controllers */,
+				8E25C9C41DB8E210008F5EC3 /* Models */,
+				8E25C9C51DB8E210008F5EC3 /* Views */,
+				8E25C9C31DB8E210008F5EC3 /* Framsworks */,
+				8E25C9C61DB8E233008F5EC3 /* Rources */,
+				8E25C9AA1DB8CB5D008F5EC3 /* Supporting Files */,
+			);
+			path = BanTang;
+			sourceTree = "<group>";
+		};
+		8E25C9AA1DB8CB5D008F5EC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E25C9AB1DB8CB5D008F5EC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E25C9C11DB8E210008F5EC3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8E25C9C71DB8E26F008F5EC3 /* MainViewController.h */,
+				8E25C9C81DB8E26F008F5EC3 /* MainViewController.m */,
+				8E4CEC781DB9CC4100B17308 /* ComstomNaviController.h */,
+				8E4CEC791DB9CC4100B17308 /* ComstomNaviController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8E25C9C21DB8E210008F5EC3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E25C9CC1DB8E616008F5EC3 /* 首页 */,
+				8E25C9CB1DB8E616008F5EC3 /* 榜单 */,
+				8E25C9CA1DB8E616008F5EC3 /* 分类 */,
+				8E25C9CD1DB8E616008F5EC3 /* 我 */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8E25C9C31DB8E210008F5EC3 /* Framsworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EFA3F681DB91FF400B71650 /* Catagory */,
+			);
+			path = Framsworks;
+			sourceTree = "<group>";
+		};
+		8E25C9C41DB8E210008F5EC3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E25C9CF1DB8E62A008F5EC3 /* 发布 */,
+				8E25C9D01DB8E62A008F5EC3 /* 发现 */,
+				8E25C9D11DB8E62A008F5EC3 /* 首页 */,
+				8E25C9D21DB8E62A008F5EC3 /* 我 */,
+				8E25C9D31DB8E62A008F5EC3 /* 消息 */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8E25C9C51DB8E210008F5EC3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E25C9D41DB8E634008F5EC3 /* 发布 */,
+				8E25C9D51DB8E634008F5EC3 /* 发现 */,
+				8E25C9D61DB8E634008F5EC3 /* 首页 */,
+				8E25C9D71DB8E634008F5EC3 /* 我 */,
+				8E25C9D81DB8E634008F5EC3 /* 消息 */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8E25C9C61DB8E233008F5EC3 /* Rources */ = {
+			isa = PBXGroup;
+			children = (
+				8E25C9B61DB8CB5D008F5EC3 /* Assets.xcassets */,
+				8E25C9B81DB8CB5D008F5EC3 /* LaunchScreen.storyboard */,
+				8E25C9BB1DB8CB5D008F5EC3 /* Info.plist */,
+				8E4CEC7E1DB9E00000B17308 /* PrefixHeader.pch */,
+			);
+			name = Rources;
+			sourceTree = "<group>";
+		};
+		8E25C9CA1DB8E616008F5EC3 /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				8E25C9DF1DB8E6B1008F5EC3 /* CategoryController.h */,
+				8E25C9E01DB8E6B1008F5EC3 /* CategoryController.m */,
+			);
+			name = "分类";
+			path = "发布";
+			sourceTree = "<group>";
+		};
+		8E25C9CB1DB8E616008F5EC3 /* 榜单 */ = {
+			isa = PBXGroup;
+			children = (
+				8E25C9DC1DB8E696008F5EC3 /* TopController.h */,
+				8E25C9DD1DB8E696008F5EC3 /* TopController.m */,
+			);
+			name = "榜单";
+			path = "发现";
+			sourceTree = "<group>";
+		};
+		8E25C9CC1DB8E616008F5EC3 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				8E25C9D91DB8E689008F5EC3 /* HomeController.h */,
+				8E25C9DA1DB8E689008F5EC3 /* HomeController.m */,
+				8E4CEC7B1DB9CEB700B17308 /* TestViewController.h */,
+				8E4CEC7C1DB9CEB700B17308 /* TestViewController.m */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		8E25C9CD1DB8E616008F5EC3 /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+				8E25C9E51DB8E6CB008F5EC3 /* MeController.h */,
+				8E25C9E61DB8E6CB008F5EC3 /* MeController.m */,
+			);
+			path = "我";
+			sourceTree = "<group>";
+		};
+		8E25C9CF1DB8E62A008F5EC3 /* 发布 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "发布";
+			sourceTree = "<group>";
+		};
+		8E25C9D01DB8E62A008F5EC3 /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "发现";
+			sourceTree = "<group>";
+		};
+		8E25C9D11DB8E62A008F5EC3 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		8E25C9D21DB8E62A008F5EC3 /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我";
+			sourceTree = "<group>";
+		};
+		8E25C9D31DB8E62A008F5EC3 /* 消息 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "消息";
+			sourceTree = "<group>";
+		};
+		8E25C9D41DB8E634008F5EC3 /* 发布 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "发布";
+			sourceTree = "<group>";
+		};
+		8E25C9D51DB8E634008F5EC3 /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "发现";
+			sourceTree = "<group>";
+		};
+		8E25C9D61DB8E634008F5EC3 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		8E25C9D71DB8E634008F5EC3 /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我";
+			sourceTree = "<group>";
+		};
+		8E25C9D81DB8E634008F5EC3 /* 消息 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "消息";
+			sourceTree = "<group>";
+		};
+		8E4CEC7F1DB9E36700B17308 /* Navi */ = {
+			isa = PBXGroup;
+			children = (
+				8EFA3F691DB91FF400B71650 /* UINavigationBar+Awesome.h */,
+				8EFA3F6A1DB91FF400B71650 /* UINavigationBar+Awesome.m */,
+			);
+			name = Navi;
+			sourceTree = "<group>";
+		};
+		8E4CEC801DB9E37D00B17308 /* frame */ = {
+			isa = PBXGroup;
+			children = (
+				8E4CEC811DB9E37D00B17308 /* UIView+Extension.h */,
+				8E4CEC821DB9E37D00B17308 /* UIView+Extension.m */,
+			);
+			path = frame;
+			sourceTree = "<group>";
+		};
+		8EFA3F681DB91FF400B71650 /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				8E4CEC801DB9E37D00B17308 /* frame */,
+				8E4CEC7F1DB9E36700B17308 /* Navi */,
+			);
+			path = Catagory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E25C9A61DB8CB5D008F5EC3 /* BanTang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E25C9BE1DB8CB5D008F5EC3 /* Build configuration list for PBXNativeTarget "BanTang" */;
+			buildPhases = (
+				CCF604D5801EE583577CF115 /* 📦 Check Pods Manifest.lock */,
+				8E25C9A31DB8CB5D008F5EC3 /* Sources */,
+				8E25C9A41DB8CB5D008F5EC3 /* Frameworks */,
+				8E25C9A51DB8CB5D008F5EC3 /* Resources */,
+				A6F961E14B7FA7C882233EC0 /* 📦 Embed Pods Frameworks */,
+				CD8EF3236C74F0CF59AA929D /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BanTang;
+			productName = BanTang;
+			productReference = 8E25C9A71DB8CB5D008F5EC3 /* BanTang.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E25C99F1DB8CB5D008F5EC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = zm;
+				TargetAttributes = {
+					8E25C9A61DB8CB5D008F5EC3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8E25C9A21DB8CB5D008F5EC3 /* Build configuration list for PBXProject "BanTang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E25C99E1DB8CB5D008F5EC3;
+			productRefGroup = 8E25C9A81DB8CB5D008F5EC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E25C9A61DB8CB5D008F5EC3 /* BanTang */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E25C9A51DB8CB5D008F5EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E25C9BA1DB8CB5D008F5EC3 /* LaunchScreen.storyboard in Resources */,
+				8E25C9B71DB8CB5D008F5EC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6F961E14B7FA7C882233EC0 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BanTang/Pods-BanTang-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCF604D5801EE583577CF115 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD8EF3236C74F0CF59AA929D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BanTang/Pods-BanTang-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E25C9A31DB8CB5D008F5EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E25C9DB1DB8E689008F5EC3 /* HomeController.m in Sources */,
+				8E25C9AF1DB8CB5D008F5EC3 /* AppDelegate.m in Sources */,
+				8E4CEC831DB9E37D00B17308 /* UIView+Extension.m in Sources */,
+				8E25C9C91DB8E26F008F5EC3 /* MainViewController.m in Sources */,
+				8E25C9AC1DB8CB5D008F5EC3 /* main.m in Sources */,
+				8E4CEC7D1DB9CEB700B17308 /* TestViewController.m in Sources */,
+				8EFA3F6B1DB91FF400B71650 /* UINavigationBar+Awesome.m in Sources */,
+				8E25C9E11DB8E6B1008F5EC3 /* CategoryController.m in Sources */,
+				8E25C9E71DB8E6CB008F5EC3 /* MeController.m in Sources */,
+				8E4CEC7A1DB9CC4100B17308 /* ComstomNaviController.m in Sources */,
+				8E25C9DE1DB8E696008F5EC3 /* TopController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E25C9B81DB8CB5D008F5EC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E25C9B91DB8CB5D008F5EC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E25C9BC1DB8CB5D008F5EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E25C9BD1DB8CB5D008F5EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E25C9BF1DB8CB5D008F5EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78434EEAFD537AFC24BB44B2 /* Pods-BanTang.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BanTang/PrefixHeader.pch";
+				INFOPLIST_FILE = BanTang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zm.BanTang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E25C9C01DB8CB5D008F5EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93268249273D0D879FD1E8E7 /* Pods-BanTang.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BanTang/PrefixHeader.pch";
+				INFOPLIST_FILE = BanTang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zm.BanTang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E25C9A21DB8CB5D008F5EC3 /* Build configuration list for PBXProject "BanTang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E25C9BC1DB8CB5D008F5EC3 /* Debug */,
+				8E25C9BD1DB8CB5D008F5EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E25C9BE1DB8CB5D008F5EC3 /* Build configuration list for PBXNativeTarget "BanTang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E25C9BF1DB8CB5D008F5EC3 /* Debug */,
+				8E25C9C01DB8CB5D008F5EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E25C99F1DB8CB5D008F5EC3 /* Project object */;
+}

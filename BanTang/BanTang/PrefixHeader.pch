@@ -1,0 +1,34 @@
+//
+//  PrefixHeader.pch
+//  BanTang
+//
+//  Created by stone on 2016/10/21.
+//  Copyright © 2016年 zm. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+#ifdef DEBUG
+#define ZMLog(...)NSLog(__VA_ARGS__)
+#else
+#define ZMLog(...)
+#endif
+
+/**
+ 打印所执行的方法
+ */
+#define ZMLogfunc ZMLog(@"---%s",__func__)
+
+/*
+ *随机颜色用户调试
+ */
+#define ZMRandomColor [UIColor colorWithRed:arc4random_uniform(100)/100.0 green:arc4random_uniform(100)/100.0 blue:arc4random_uniform(100)/100.0 alpha:1]
+
+
+#import "UIView+Extension.h"
