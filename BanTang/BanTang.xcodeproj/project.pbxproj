@@ -18,11 +18,23 @@
 		8E25C9E11DB8E6B1008F5EC3 /* CategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25C9E01DB8E6B1008F5EC3 /* CategoryController.m */; };
 		8E25C9E71DB8E6CB008F5EC3 /* MeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25C9E61DB8E6CB008F5EC3 /* MeController.m */; };
 		8E4CEC7A1DB9CC4100B17308 /* ComstomNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CEC791DB9CC4100B17308 /* ComstomNaviController.m */; };
-		8E4CEC7D1DB9CEB700B17308 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CEC7C1DB9CEB700B17308 /* TestViewController.m */; };
 		8E4CEC831DB9E37D00B17308 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CEC821DB9E37D00B17308 /* UIView+Extension.m */; };
 		8EAA01BE1DBA55F0003EB3C1 /* SearchBarBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAA01BD1DBA55F0003EB3C1 /* SearchBarBtn.m */; };
 		8EAA01C51DBA56EC003EB3C1 /* ZMSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAA01C21DBA56EC003EB3C1 /* ZMSearchBar.m */; };
 		8EAA01C61DBA56EC003EB3C1 /* ZMSearchBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAA01C41DBA56EC003EB3C1 /* ZMSearchBarController.m */; };
+		8EAEAC681DBB22EE00B0EC6C /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEAC671DBB22EE00B0EC6C /* UIColor+Extension.m */; };
+		8EAEAC6E1DBB24E200B0EC6C /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEAC6D1DBB24E200B0EC6C /* HeaderView.m */; };
+		8EAEAC701DBB24EF00B0EC6C /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EAEAC6F1DBB24EF00B0EC6C /* HeaderView.xib */; };
+		8EAEACA61DBB67D000B0EC6C /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEAC9C1DBB67D000B0EC6C /* WMMenuItem.m */; };
+		8EAEACA71DBB67D000B0EC6C /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEAC9E1DBB67D000B0EC6C /* WMMenuView.m */; };
+		8EAEACA81DBB67D000B0EC6C /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEACA01DBB67D000B0EC6C /* WMProgressView.m */; };
+		8EAEACA91DBB67D000B0EC6C /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEACA21DBB67D000B0EC6C /* WMScrollView.m */; };
+		8EAEACAA1DBB67D000B0EC6C /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEACA51DBB67D000B0EC6C /* WMPageController.m */; };
+		8EAEACAD1DBB684F00B0EC6C /* BangDanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEACAC1DBB684F00B0EC6C /* BangDanController.m */; };
+		8EAEACB01DBB710100B0EC6C /* CategoryChildController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEACAF1DBB710100B0EC6C /* CategoryChildController.m */; };
+		8EAEACB31DBB797700B0EC6C /* HomeChildController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEACB21DBB797700B0EC6C /* HomeChildController.m */; };
+		8EAEACC51DBBB0B600B0EC6C /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEACC41DBBB0B600B0EC6C /* BaseModel.m */; };
+		8EAEACC81DBBB0C800B0EC6C /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEACC71DBBB0C800B0EC6C /* HomeModel.m */; };
 		8EFA3F6B1DB91FF400B71650 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3F6A1DB91FF400B71650 /* UINavigationBar+Awesome.m */; };
 /* End PBXBuildFile section */
 
@@ -47,8 +59,6 @@
 		8E25C9E61DB8E6CB008F5EC3 /* MeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeController.m; sourceTree = "<group>"; };
 		8E4CEC781DB9CC4100B17308 /* ComstomNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComstomNaviController.h; sourceTree = "<group>"; };
 		8E4CEC791DB9CC4100B17308 /* ComstomNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComstomNaviController.m; sourceTree = "<group>"; };
-		8E4CEC7B1DB9CEB700B17308 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		8E4CEC7C1DB9CEB700B17308 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		8E4CEC7E1DB9E00000B17308 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8E4CEC811DB9E37D00B17308 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		8E4CEC821DB9E37D00B17308 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
@@ -58,6 +68,32 @@
 		8EAA01C21DBA56EC003EB3C1 /* ZMSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMSearchBar.m; sourceTree = "<group>"; };
 		8EAA01C31DBA56EC003EB3C1 /* ZMSearchBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMSearchBarController.h; sourceTree = "<group>"; };
 		8EAA01C41DBA56EC003EB3C1 /* ZMSearchBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMSearchBarController.m; sourceTree = "<group>"; };
+		8EAEAC661DBB22EE00B0EC6C /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		8EAEAC671DBB22EE00B0EC6C /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		8EAEAC6C1DBB24E200B0EC6C /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeaderView.h; path = BanTang/Controllers/HeaderView.h; sourceTree = SOURCE_ROOT; };
+		8EAEAC6D1DBB24E200B0EC6C /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeaderView.m; path = BanTang/Controllers/HeaderView.m; sourceTree = SOURCE_ROOT; };
+		8EAEAC6F1DBB24EF00B0EC6C /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HeaderView.xib; path = BanTang/Controllers/HeaderView.xib; sourceTree = SOURCE_ROOT; };
+		8EAEAC9B1DBB67D000B0EC6C /* WMMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMenuItem.h; sourceTree = "<group>"; };
+		8EAEAC9C1DBB67D000B0EC6C /* WMMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMenuItem.m; sourceTree = "<group>"; };
+		8EAEAC9D1DBB67D000B0EC6C /* WMMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMenuView.h; sourceTree = "<group>"; };
+		8EAEAC9E1DBB67D000B0EC6C /* WMMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMenuView.m; sourceTree = "<group>"; };
+		8EAEAC9F1DBB67D000B0EC6C /* WMProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMProgressView.h; sourceTree = "<group>"; };
+		8EAEACA01DBB67D000B0EC6C /* WMProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMProgressView.m; sourceTree = "<group>"; };
+		8EAEACA11DBB67D000B0EC6C /* WMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMScrollView.h; sourceTree = "<group>"; };
+		8EAEACA21DBB67D000B0EC6C /* WMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMScrollView.m; sourceTree = "<group>"; };
+		8EAEACA31DBB67D000B0EC6C /* WMPageConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPageConst.h; sourceTree = "<group>"; };
+		8EAEACA41DBB67D000B0EC6C /* WMPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPageController.h; sourceTree = "<group>"; };
+		8EAEACA51DBB67D000B0EC6C /* WMPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPageController.m; sourceTree = "<group>"; };
+		8EAEACAB1DBB684F00B0EC6C /* BangDanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BangDanController.h; sourceTree = "<group>"; };
+		8EAEACAC1DBB684F00B0EC6C /* BangDanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BangDanController.m; sourceTree = "<group>"; };
+		8EAEACAE1DBB710100B0EC6C /* CategoryChildController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryChildController.h; sourceTree = "<group>"; };
+		8EAEACAF1DBB710100B0EC6C /* CategoryChildController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryChildController.m; sourceTree = "<group>"; };
+		8EAEACB11DBB797700B0EC6C /* HomeChildController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeChildController.h; sourceTree = "<group>"; };
+		8EAEACB21DBB797700B0EC6C /* HomeChildController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeChildController.m; sourceTree = "<group>"; };
+		8EAEACC31DBBB0B600B0EC6C /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseModel.h; path = "BanTang/Controllers/我/BaseModel.h"; sourceTree = SOURCE_ROOT; };
+		8EAEACC41DBBB0B600B0EC6C /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseModel.m; path = "BanTang/Controllers/我/BaseModel.m"; sourceTree = SOURCE_ROOT; };
+		8EAEACC61DBBB0C800B0EC6C /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeModel.h; path = "BanTang/Controllers/我/HomeModel.h"; sourceTree = SOURCE_ROOT; };
+		8EAEACC71DBBB0C800B0EC6C /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeModel.m; path = "BanTang/Controllers/我/HomeModel.m"; sourceTree = SOURCE_ROOT; };
 		8EFA3F691DB91FF400B71650 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
 		8EFA3F6A1DB91FF400B71650 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
 		93268249273D0D879FD1E8E7 /* Pods-BanTang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanTang.release.xcconfig"; path = "Pods/Target Support Files/Pods-BanTang/Pods-BanTang.release.xcconfig"; sourceTree = "<group>"; };
@@ -161,6 +197,7 @@
 		8E25C9C31DB8E210008F5EC3 /* Framsworks */ = {
 			isa = PBXGroup;
 			children = (
+				8EAEAC991DBB67D000B0EC6C /* WMPageController */,
 				8EFA3F681DB91FF400B71650 /* Catagory */,
 			);
 			path = Framsworks;
@@ -169,11 +206,13 @@
 		8E25C9C41DB8E210008F5EC3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8E25C9D11DB8E62A008F5EC3 /* 首页 */,
 				8E25C9CF1DB8E62A008F5EC3 /* 发布 */,
 				8E25C9D01DB8E62A008F5EC3 /* 发现 */,
-				8E25C9D11DB8E62A008F5EC3 /* 首页 */,
 				8E25C9D21DB8E62A008F5EC3 /* 我 */,
 				8E25C9D31DB8E62A008F5EC3 /* 消息 */,
+				8EAEACC31DBBB0B600B0EC6C /* BaseModel.h */,
+				8EAEACC41DBBB0B600B0EC6C /* BaseModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -185,7 +224,6 @@
 				8E25C9D51DB8E634008F5EC3 /* 发现 */,
 				8E25C9D61DB8E634008F5EC3 /* 首页 */,
 				8E25C9D71DB8E634008F5EC3 /* 我 */,
-				8E25C9D81DB8E634008F5EC3 /* 消息 */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -206,6 +244,8 @@
 			children = (
 				8E25C9DF1DB8E6B1008F5EC3 /* CategoryController.h */,
 				8E25C9E01DB8E6B1008F5EC3 /* CategoryController.m */,
+				8EAEACAE1DBB710100B0EC6C /* CategoryChildController.h */,
+				8EAEACAF1DBB710100B0EC6C /* CategoryChildController.m */,
 			);
 			name = "分类";
 			path = "发布";
@@ -216,6 +256,8 @@
 			children = (
 				8E25C9DC1DB8E696008F5EC3 /* TopController.h */,
 				8E25C9DD1DB8E696008F5EC3 /* TopController.m */,
+				8EAEACAB1DBB684F00B0EC6C /* BangDanController.h */,
+				8EAEACAC1DBB684F00B0EC6C /* BangDanController.m */,
 			);
 			name = "榜单";
 			path = "发现";
@@ -226,8 +268,8 @@
 			children = (
 				8E25C9D91DB8E689008F5EC3 /* HomeController.h */,
 				8E25C9DA1DB8E689008F5EC3 /* HomeController.m */,
-				8E4CEC7B1DB9CEB700B17308 /* TestViewController.h */,
-				8E4CEC7C1DB9CEB700B17308 /* TestViewController.m */,
+				8EAEACB11DBB797700B0EC6C /* HomeChildController.h */,
+				8EAEACB21DBB797700B0EC6C /* HomeChildController.m */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -258,6 +300,8 @@
 		8E25C9D11DB8E62A008F5EC3 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				8EAEACC61DBBB0C800B0EC6C /* HomeModel.h */,
+				8EAEACC71DBBB0C800B0EC6C /* HomeModel.m */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -300,15 +344,11 @@
 		8E25C9D71DB8E634008F5EC3 /* 我 */ = {
 			isa = PBXGroup;
 			children = (
+				8EAEAC6C1DBB24E200B0EC6C /* HeaderView.h */,
+				8EAEAC6D1DBB24E200B0EC6C /* HeaderView.m */,
+				8EAEAC6F1DBB24EF00B0EC6C /* HeaderView.xib */,
 			);
 			path = "我";
-			sourceTree = "<group>";
-		};
-		8E25C9D81DB8E634008F5EC3 /* 消息 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "消息";
 			sourceTree = "<group>";
 		};
 		8E4CEC7F1DB9E36700B17308 /* Navi */ = {
@@ -351,9 +391,46 @@
 			path = ZMSearchBar;
 			sourceTree = "<group>";
 		};
+		8EAEAC651DBB22EE00B0EC6C /* color */ = {
+			isa = PBXGroup;
+			children = (
+				8EAEAC661DBB22EE00B0EC6C /* UIColor+Extension.h */,
+				8EAEAC671DBB22EE00B0EC6C /* UIColor+Extension.m */,
+			);
+			name = color;
+			path = ../color;
+			sourceTree = "<group>";
+		};
+		8EAEAC991DBB67D000B0EC6C /* WMPageController */ = {
+			isa = PBXGroup;
+			children = (
+				8EAEAC9A1DBB67D000B0EC6C /* WMMenuView */,
+				8EAEACA31DBB67D000B0EC6C /* WMPageConst.h */,
+				8EAEACA41DBB67D000B0EC6C /* WMPageController.h */,
+				8EAEACA51DBB67D000B0EC6C /* WMPageController.m */,
+			);
+			path = WMPageController;
+			sourceTree = "<group>";
+		};
+		8EAEAC9A1DBB67D000B0EC6C /* WMMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				8EAEAC9B1DBB67D000B0EC6C /* WMMenuItem.h */,
+				8EAEAC9C1DBB67D000B0EC6C /* WMMenuItem.m */,
+				8EAEAC9D1DBB67D000B0EC6C /* WMMenuView.h */,
+				8EAEAC9E1DBB67D000B0EC6C /* WMMenuView.m */,
+				8EAEAC9F1DBB67D000B0EC6C /* WMProgressView.h */,
+				8EAEACA01DBB67D000B0EC6C /* WMProgressView.m */,
+				8EAEACA11DBB67D000B0EC6C /* WMScrollView.h */,
+				8EAEACA21DBB67D000B0EC6C /* WMScrollView.m */,
+			);
+			path = WMMenuView;
+			sourceTree = "<group>";
+		};
 		8EFA3F681DB91FF400B71650 /* Catagory */ = {
 			isa = PBXGroup;
 			children = (
+				8EAEAC651DBB22EE00B0EC6C /* color */,
 				8E4CEC801DB9E37D00B17308 /* frame */,
 				8E4CEC7F1DB9E36700B17308 /* Navi */,
 			);
@@ -394,6 +471,7 @@
 				TargetAttributes = {
 					8E25C9A61DB8CB5D008F5EC3 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 28ZP6876BA;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -421,6 +499,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EAEAC701DBB24EF00B0EC6C /* HeaderView.xib in Resources */,
 				8E25C9BA1DB8CB5D008F5EC3 /* LaunchScreen.storyboard in Resources */,
 				8E25C9B71DB8CB5D008F5EC3 /* Assets.xcassets in Resources */,
 			);
@@ -481,20 +560,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EAEACB31DBB797700B0EC6C /* HomeChildController.m in Sources */,
+				8EAEACB01DBB710100B0EC6C /* CategoryChildController.m in Sources */,
+				8EAEACA61DBB67D000B0EC6C /* WMMenuItem.m in Sources */,
+				8EAEACA71DBB67D000B0EC6C /* WMMenuView.m in Sources */,
 				8E25C9DB1DB8E689008F5EC3 /* HomeController.m in Sources */,
 				8E25C9AF1DB8CB5D008F5EC3 /* AppDelegate.m in Sources */,
 				8EAA01C61DBA56EC003EB3C1 /* ZMSearchBarController.m in Sources */,
 				8E4CEC831DB9E37D00B17308 /* UIView+Extension.m in Sources */,
+				8EAEACA81DBB67D000B0EC6C /* WMProgressView.m in Sources */,
 				8E25C9C91DB8E26F008F5EC3 /* MainViewController.m in Sources */,
 				8E25C9AC1DB8CB5D008F5EC3 /* main.m in Sources */,
-				8E4CEC7D1DB9CEB700B17308 /* TestViewController.m in Sources */,
+				8EAEAC681DBB22EE00B0EC6C /* UIColor+Extension.m in Sources */,
 				8EFA3F6B1DB91FF400B71650 /* UINavigationBar+Awesome.m in Sources */,
 				8E25C9E11DB8E6B1008F5EC3 /* CategoryController.m in Sources */,
 				8EAA01BE1DBA55F0003EB3C1 /* SearchBarBtn.m in Sources */,
+				8EAEACC81DBBB0C800B0EC6C /* HomeModel.m in Sources */,
+				8EAEAC6E1DBB24E200B0EC6C /* HeaderView.m in Sources */,
 				8E25C9E71DB8E6CB008F5EC3 /* MeController.m in Sources */,
+				8EAEACAA1DBB67D000B0EC6C /* WMPageController.m in Sources */,
+				8EAEACC51DBBB0B600B0EC6C /* BaseModel.m in Sources */,
 				8EAA01C51DBA56EC003EB3C1 /* ZMSearchBar.m in Sources */,
 				8E4CEC7A1DB9CC4100B17308 /* ComstomNaviController.m in Sources */,
+				8EAEACAD1DBB684F00B0EC6C /* BangDanController.m in Sources */,
 				8E25C9DE1DB8E696008F5EC3 /* TopController.m in Sources */,
+				8EAEACA91DBB67D000B0EC6C /* WMScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,8 +698,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 28ZP6876BA;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BanTang/PrefixHeader.pch";
 				INFOPLIST_FILE = BanTang/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zm.BanTang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -622,8 +714,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 28ZP6876BA;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BanTang/PrefixHeader.pch";
 				INFOPLIST_FILE = BanTang/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zm.BanTang;
 				PRODUCT_NAME = "$(TARGET_NAME)";

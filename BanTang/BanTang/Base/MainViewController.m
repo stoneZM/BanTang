@@ -40,7 +40,7 @@
  *初始化控制器
  */
 -(UINavigationController*)setChildVCWithController:(UIViewController*)vc tabBarImage:(NSString*)imageName tabBarSelectedImage:(NSString*)selectedImageName title:(NSString*)title{
-
+    
     vc.tabBarItem.image = [UIImage imageNamed:imageName];
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImageName];
     vc.tabBarItem.title = title;

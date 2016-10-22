@@ -10,7 +10,7 @@ target 'BanTang' do
   pod 'AFNetworking', '~> 3.0'
   pod 'Masonry'
   pod 'MJRefresh'
-  pod 'SDWebImage'
   pod 'SVProgressHUD'
   pod 'MJExtension'
+
 end

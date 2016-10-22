@@ -1,22 +1,22 @@
 //
-//  TestViewController.m
+//  HomeChildController.m
 //  BanTang
 //
-//  Created by stone on 2016/10/21.
+//  Created by stone on 2016/10/22.
 //  Copyright © 2016年 zm. All rights reserved.
 //
 
-#import "TestViewController.h"
+#import "HomeChildController.h"
 
-@interface TestViewController ()
+@interface HomeChildController ()
 
 @end
 
-@implementation TestViewController
+@implementation HomeChildController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-     self.view.backgroundColor = [UIColor whiteColor];
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

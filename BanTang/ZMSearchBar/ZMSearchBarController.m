@@ -21,7 +21,7 @@
     ZMSearchBar* searchBar = [ZMSearchBar standSearchBar];
     self.navigationItem.titleView = searchBar;
     searchBar.delegate = self;
-    searchBar.frame = CGRectMake(20, 5, 300, 34);
+    searchBar.frame = CGRectMake(0, 0, 200, 30);
 }
 -(void)viewDidLoad{
     self.view.backgroundColor = [UIColor whiteColor];

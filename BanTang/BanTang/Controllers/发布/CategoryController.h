@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface CategoryController : UIViewController
+#import "WMPageController.h"
+@interface CategoryController : WMPageController
 
 @end
