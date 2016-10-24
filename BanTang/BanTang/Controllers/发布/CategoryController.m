@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-     self.view.backgroundColor = [UIColor colorWithHex:0xFAF5f5 andAlpha:1];
+     self.view.backgroundColor = VIEWBGCOLOR;
     [self addSearchBtnToView];
 }
 

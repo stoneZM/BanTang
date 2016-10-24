@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
+#import "HomeNetwork.h"
+#import "TopNetwork.h"
 @interface AppDelegate ()
 
 @end
@@ -20,6 +22,10 @@
     MainViewController* mainVC = [[MainViewController alloc]init];
     self.window.rootViewController = mainVC;
     [self.window makeKeyAndVisible];
+//    [HomeNetwork getHeadImageModelCompleteHandle:^(id responseObj, NSError *error) {
+//
+//    }];
+    NSLog(@"%@",NSHomeDirectory());
     return YES;
 }
 

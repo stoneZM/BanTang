@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		6CF271BAEE2D6EA7434B0B59 /* libPods-BanTang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 937540194B2A030F87B90ADA /* libPods-BanTang.a */; };
+		8E00C9661DBC525B005EB0E2 /* TopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00C9651DBC525B005EB0E2 /* TopModel.m */; };
+		8E00C96B1DBC549B005EB0E2 /* TopNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00C96A1DBC549B005EB0E2 /* TopNetwork.m */; };
+		8E00C96F1DBC56B5005EB0E2 /* TopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00C96D1DBC56B5005EB0E2 /* TopCell.m */; };
+		8E00C9701DBC56B5005EB0E2 /* TopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E00C96E1DBC56B5005EB0E2 /* TopCell.xib */; };
+		8E00C9741DBC59D8005EB0E2 /* TopViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00C9731DBC59D8005EB0E2 /* TopViewModel.m */; };
+		8E00C9771DBC5D10005EB0E2 /* CustomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00C9761DBC5D10005EB0E2 /* CustomFlowLayout.m */; };
+		8E00C9821DBC6F5D005EB0E2 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00C97E1DBC6F5D005EB0E2 /* iCarousel.m */; };
+		8E00C9861DBC6FCC005EB0E2 /* HeadScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00C9851DBC6FCC005EB0E2 /* HeadScrollView.m */; };
+		8E00C9891DBC7DD7005EB0E2 /* HeadImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00C9881DBC7DD7005EB0E2 /* HeadImageModel.m */; };
+		8E00C98F1DBC8762005EB0E2 /* HeadImageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00C98E1DBC8762005EB0E2 /* HeadImageViewModel.m */; };
+		8E00C99B1DBCB062005EB0E2 /* NSString+ZMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00C99A1DBCB062005EB0E2 /* NSString+ZMExtension.m */; };
 		8E25C9AC1DB8CB5D008F5EC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25C9AB1DB8CB5D008F5EC3 /* main.m */; };
 		8E25C9AF1DB8CB5D008F5EC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25C9AE1DB8CB5D008F5EC3 /* AppDelegate.m */; };
 		8E25C9B71DB8CB5D008F5EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E25C9B61DB8CB5D008F5EC3 /* Assets.xcassets */; };
-		8E25C9BA1DB8CB5D008F5EC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E25C9B81DB8CB5D008F5EC3 /* LaunchScreen.storyboard */; };
 		8E25C9C91DB8E26F008F5EC3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25C9C81DB8E26F008F5EC3 /* MainViewController.m */; };
 		8E25C9DB1DB8E689008F5EC3 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25C9DA1DB8E689008F5EC3 /* HomeController.m */; };
 		8E25C9DE1DB8E696008F5EC3 /* TopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25C9DD1DB8E696008F5EC3 /* TopController.m */; };
@@ -35,17 +45,43 @@
 		8EAEACB31DBB797700B0EC6C /* HomeChildController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEACB21DBB797700B0EC6C /* HomeChildController.m */; };
 		8EAEACC51DBBB0B600B0EC6C /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEACC41DBBB0B600B0EC6C /* BaseModel.m */; };
 		8EAEACC81DBBB0C800B0EC6C /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEACC71DBBB0C800B0EC6C /* HomeModel.m */; };
+		8EAEACCC1DBBB91900B0EC6C /* BaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEACCB1DBBB91900B0EC6C /* BaseNetManager.m */; };
+		8EAEACCF1DBBB95600B0EC6C /* HomeNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEACCE1DBBB95600B0EC6C /* HomeNetwork.m */; };
+		8EAEACD91DBBC47900B0EC6C /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEACD71DBBC47900B0EC6C /* HomeCell.m */; };
+		8EAEACDA1DBBC47900B0EC6C /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EAEACD81DBBC47900B0EC6C /* HomeCell.xib */; };
+		8EAEACDD1DBBCCFB00B0EC6C /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEACDC1DBBCCFB00B0EC6C /* BaseViewModel.m */; };
+		8EAEACE21DBBCD4400B0EC6C /* HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEACE11DBBCD4400B0EC6C /* HomeViewModel.m */; };
 		8EFA3F6B1DB91FF400B71650 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA3F6A1DB91FF400B71650 /* UINavigationBar+Awesome.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		78434EEAFD537AFC24BB44B2 /* Pods-BanTang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanTang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BanTang/Pods-BanTang.debug.xcconfig"; sourceTree = "<group>"; };
+		8E00C9641DBC525B005EB0E2 /* TopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopModel.h; path = BanTang/Controllers/TopModel.h; sourceTree = SOURCE_ROOT; };
+		8E00C9651DBC525B005EB0E2 /* TopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopModel.m; path = BanTang/Controllers/TopModel.m; sourceTree = SOURCE_ROOT; };
+		8E00C9691DBC549B005EB0E2 /* TopNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopNetwork.h; sourceTree = "<group>"; };
+		8E00C96A1DBC549B005EB0E2 /* TopNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopNetwork.m; sourceTree = "<group>"; };
+		8E00C96C1DBC56B5005EB0E2 /* TopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopCell.h; path = BanTang/TopCell.h; sourceTree = SOURCE_ROOT; };
+		8E00C96D1DBC56B5005EB0E2 /* TopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopCell.m; path = BanTang/TopCell.m; sourceTree = SOURCE_ROOT; };
+		8E00C96E1DBC56B5005EB0E2 /* TopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TopCell.xib; path = BanTang/TopCell.xib; sourceTree = SOURCE_ROOT; };
+		8E00C9721DBC59D8005EB0E2 /* TopViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewModel.h; sourceTree = "<group>"; };
+		8E00C9731DBC59D8005EB0E2 /* TopViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewModel.m; sourceTree = "<group>"; };
+		8E00C9751DBC5D10005EB0E2 /* CustomFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomFlowLayout.h; path = BanTang/Controllers/CustomFlowLayout.h; sourceTree = SOURCE_ROOT; };
+		8E00C9761DBC5D10005EB0E2 /* CustomFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomFlowLayout.m; path = BanTang/Controllers/CustomFlowLayout.m; sourceTree = SOURCE_ROOT; };
+		8E00C97D1DBC6F5D005EB0E2 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		8E00C97E1DBC6F5D005EB0E2 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		8E00C9841DBC6FCC005EB0E2 /* HeadScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeadScrollView.h; path = BanTang/Controllers/HeadScrollView.h; sourceTree = SOURCE_ROOT; };
+		8E00C9851DBC6FCC005EB0E2 /* HeadScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeadScrollView.m; path = BanTang/Controllers/HeadScrollView.m; sourceTree = SOURCE_ROOT; };
+		8E00C9871DBC7DD7005EB0E2 /* HeadImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeadImageModel.h; path = BanTang/Controllers/HeadImageModel.h; sourceTree = SOURCE_ROOT; };
+		8E00C9881DBC7DD7005EB0E2 /* HeadImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeadImageModel.m; path = BanTang/Controllers/HeadImageModel.m; sourceTree = SOURCE_ROOT; };
+		8E00C98D1DBC8762005EB0E2 /* HeadImageViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadImageViewModel.h; sourceTree = "<group>"; };
+		8E00C98E1DBC8762005EB0E2 /* HeadImageViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadImageViewModel.m; sourceTree = "<group>"; };
+		8E00C9991DBCB062005EB0E2 /* NSString+ZMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZMExtension.h"; sourceTree = "<group>"; };
+		8E00C99A1DBCB062005EB0E2 /* NSString+ZMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZMExtension.m"; sourceTree = "<group>"; };
 		8E25C9A71DB8CB5D008F5EC3 /* BanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E25C9AB1DB8CB5D008F5EC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8E25C9AD1DB8CB5D008F5EC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8E25C9AE1DB8CB5D008F5EC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8E25C9B61DB8CB5D008F5EC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8E25C9B91DB8CB5D008F5EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E25C9BB1DB8CB5D008F5EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E25C9C71DB8E26F008F5EC3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		8E25C9C81DB8E26F008F5EC3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
@@ -94,6 +130,17 @@
 		8EAEACC41DBBB0B600B0EC6C /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseModel.m; path = "BanTang/Controllers/我/BaseModel.m"; sourceTree = SOURCE_ROOT; };
 		8EAEACC61DBBB0C800B0EC6C /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeModel.h; path = "BanTang/Controllers/我/HomeModel.h"; sourceTree = SOURCE_ROOT; };
 		8EAEACC71DBBB0C800B0EC6C /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeModel.m; path = "BanTang/Controllers/我/HomeModel.m"; sourceTree = SOURCE_ROOT; };
+		8EAEACCA1DBBB91900B0EC6C /* BaseNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetManager.h; sourceTree = "<group>"; };
+		8EAEACCB1DBBB91900B0EC6C /* BaseNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetManager.m; sourceTree = "<group>"; };
+		8EAEACCD1DBBB95600B0EC6C /* HomeNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeNetwork.h; sourceTree = "<group>"; };
+		8EAEACCE1DBBB95600B0EC6C /* HomeNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeNetwork.m; sourceTree = "<group>"; };
+		8EAEACD61DBBC47900B0EC6C /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeCell.h; path = BanTang/HomeCell.h; sourceTree = SOURCE_ROOT; };
+		8EAEACD71DBBC47900B0EC6C /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeCell.m; path = BanTang/HomeCell.m; sourceTree = SOURCE_ROOT; };
+		8EAEACD81DBBC47900B0EC6C /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeCell.xib; path = BanTang/HomeCell.xib; sourceTree = SOURCE_ROOT; };
+		8EAEACDB1DBBCCFB00B0EC6C /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		8EAEACDC1DBBCCFB00B0EC6C /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		8EAEACE01DBBCD4400B0EC6C /* HomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewModel.h; sourceTree = "<group>"; };
+		8EAEACE11DBBCD4400B0EC6C /* HomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewModel.m; sourceTree = "<group>"; };
 		8EFA3F691DB91FF400B71650 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
 		8EFA3F6A1DB91FF400B71650 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
 		93268249273D0D879FD1E8E7 /* Pods-BanTang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanTang.release.xcconfig"; path = "Pods/Target Support Files/Pods-BanTang/Pods-BanTang.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +176,51 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8E00C9671DBC5471005EB0E2 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				8EAEACCD1DBBB95600B0EC6C /* HomeNetwork.h */,
+				8EAEACCE1DBBB95600B0EC6C /* HomeNetwork.m */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		8E00C9681DBC547D005EB0E2 /* 榜单 */ = {
+			isa = PBXGroup;
+			children = (
+				8E00C9691DBC549B005EB0E2 /* TopNetwork.h */,
+				8E00C96A1DBC549B005EB0E2 /* TopNetwork.m */,
+			);
+			name = "榜单";
+			sourceTree = "<group>";
+		};
+		8E00C9711DBC59A9005EB0E2 /* 榜单 */ = {
+			isa = PBXGroup;
+			children = (
+				8E00C9721DBC59D8005EB0E2 /* TopViewModel.h */,
+				8E00C9731DBC59D8005EB0E2 /* TopViewModel.m */,
+			);
+			name = "榜单";
+			sourceTree = "<group>";
+		};
+		8E00C97A1DBC6F5D005EB0E2 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				8E00C97D1DBC6F5D005EB0E2 /* iCarousel.h */,
+				8E00C97E1DBC6F5D005EB0E2 /* iCarousel.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		8E00C9981DBCB051005EB0E2 /* string */ = {
+			isa = PBXGroup;
+			children = (
+				8E00C9991DBCB062005EB0E2 /* NSString+ZMExtension.h */,
+				8E00C99A1DBCB062005EB0E2 /* NSString+ZMExtension.m */,
+			);
+			name = string;
+			sourceTree = "<group>";
+		};
 		8E25C99E1DB8CB5D008F5EC3 = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +247,9 @@
 				8E25C9C11DB8E210008F5EC3 /* Base */,
 				8EAA01BF1DBA56DC003EB3C1 /* Others */,
 				8E25C9C21DB8E210008F5EC3 /* Controllers */,
+				8EAEACDE1DBBCD0600B0EC6C /* ViewModel */,
 				8E25C9C41DB8E210008F5EC3 /* Models */,
+				8EAEACC91DBBB8B000B0EC6C /* Network */,
 				8E25C9C51DB8E210008F5EC3 /* Views */,
 				8E25C9C31DB8E210008F5EC3 /* Framsworks */,
 				8E25C9C61DB8E233008F5EC3 /* Rources */,
@@ -197,6 +291,7 @@
 		8E25C9C31DB8E210008F5EC3 /* Framsworks */ = {
 			isa = PBXGroup;
 			children = (
+				8E00C97A1DBC6F5D005EB0E2 /* iCarousel */,
 				8EAEAC991DBB67D000B0EC6C /* WMPageController */,
 				8EFA3F681DB91FF400B71650 /* Catagory */,
 			);
@@ -207,7 +302,7 @@
 			isa = PBXGroup;
 			children = (
 				8E25C9D11DB8E62A008F5EC3 /* 首页 */,
-				8E25C9CF1DB8E62A008F5EC3 /* 发布 */,
+				8E25C9CF1DB8E62A008F5EC3 /* 榜单 */,
 				8E25C9D01DB8E62A008F5EC3 /* 发现 */,
 				8E25C9D21DB8E62A008F5EC3 /* 我 */,
 				8E25C9D31DB8E62A008F5EC3 /* 消息 */,
@@ -220,9 +315,9 @@
 		8E25C9C51DB8E210008F5EC3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8E25C9D41DB8E634008F5EC3 /* 发布 */,
-				8E25C9D51DB8E634008F5EC3 /* 发现 */,
 				8E25C9D61DB8E634008F5EC3 /* 首页 */,
+				8E25C9D41DB8E634008F5EC3 /* 榜单 */,
+				8E25C9D51DB8E634008F5EC3 /* 发现 */,
 				8E25C9D71DB8E634008F5EC3 /* 我 */,
 			);
 			path = Views;
@@ -232,7 +327,6 @@
 			isa = PBXGroup;
 			children = (
 				8E25C9B61DB8CB5D008F5EC3 /* Assets.xcassets */,
-				8E25C9B81DB8CB5D008F5EC3 /* LaunchScreen.storyboard */,
 				8E25C9BB1DB8CB5D008F5EC3 /* Info.plist */,
 				8E4CEC7E1DB9E00000B17308 /* PrefixHeader.pch */,
 			);
@@ -283,10 +377,13 @@
 			path = "我";
 			sourceTree = "<group>";
 		};
-		8E25C9CF1DB8E62A008F5EC3 /* 发布 */ = {
+		8E25C9CF1DB8E62A008F5EC3 /* 榜单 */ = {
 			isa = PBXGroup;
 			children = (
+				8E00C9641DBC525B005EB0E2 /* TopModel.h */,
+				8E00C9651DBC525B005EB0E2 /* TopModel.m */,
 			);
+			name = "榜单";
 			path = "发布";
 			sourceTree = "<group>";
 		};
@@ -302,6 +399,8 @@
 			children = (
 				8EAEACC61DBBB0C800B0EC6C /* HomeModel.h */,
 				8EAEACC71DBBB0C800B0EC6C /* HomeModel.m */,
+				8E00C9871DBC7DD7005EB0E2 /* HeadImageModel.h */,
+				8E00C9881DBC7DD7005EB0E2 /* HeadImageModel.m */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -320,10 +419,16 @@
 			path = "消息";
 			sourceTree = "<group>";
 		};
-		8E25C9D41DB8E634008F5EC3 /* 发布 */ = {
+		8E25C9D41DB8E634008F5EC3 /* 榜单 */ = {
 			isa = PBXGroup;
 			children = (
+				8E00C96C1DBC56B5005EB0E2 /* TopCell.h */,
+				8E00C96D1DBC56B5005EB0E2 /* TopCell.m */,
+				8E00C96E1DBC56B5005EB0E2 /* TopCell.xib */,
+				8E00C9751DBC5D10005EB0E2 /* CustomFlowLayout.h */,
+				8E00C9761DBC5D10005EB0E2 /* CustomFlowLayout.m */,
 			);
+			name = "榜单";
 			path = "发布";
 			sourceTree = "<group>";
 		};
@@ -337,6 +442,11 @@
 		8E25C9D61DB8E634008F5EC3 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				8EAEACD61DBBC47900B0EC6C /* HomeCell.h */,
+				8EAEACD71DBBC47900B0EC6C /* HomeCell.m */,
+				8EAEACD81DBBC47900B0EC6C /* HomeCell.xib */,
+				8E00C9841DBC6FCC005EB0E2 /* HeadScrollView.h */,
+				8E00C9851DBC6FCC005EB0E2 /* HeadScrollView.m */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -427,9 +537,44 @@
 			path = WMMenuView;
 			sourceTree = "<group>";
 		};
+		8EAEACC91DBBB8B000B0EC6C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8E00C9671DBC5471005EB0E2 /* 首页 */,
+				8E00C9681DBC547D005EB0E2 /* 榜单 */,
+				8EAEACCA1DBBB91900B0EC6C /* BaseNetManager.h */,
+				8EAEACCB1DBBB91900B0EC6C /* BaseNetManager.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		8EAEACDE1DBBCD0600B0EC6C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8EAEACDB1DBBCCFB00B0EC6C /* BaseViewModel.h */,
+				8EAEACDC1DBBCCFB00B0EC6C /* BaseViewModel.m */,
+				8EAEACDF1DBBCD2A00B0EC6C /* Home */,
+				8E00C9711DBC59A9005EB0E2 /* 榜单 */,
+			);
+			name = ViewModel;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8EAEACDF1DBBCD2A00B0EC6C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8EAEACE01DBBCD4400B0EC6C /* HomeViewModel.h */,
+				8EAEACE11DBBCD4400B0EC6C /* HomeViewModel.m */,
+				8E00C98D1DBC8762005EB0E2 /* HeadImageViewModel.h */,
+				8E00C98E1DBC8762005EB0E2 /* HeadImageViewModel.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
 		8EFA3F681DB91FF400B71650 /* Catagory */ = {
 			isa = PBXGroup;
 			children = (
+				8E00C9981DBCB051005EB0E2 /* string */,
 				8EAEAC651DBB22EE00B0EC6C /* color */,
 				8E4CEC801DB9E37D00B17308 /* frame */,
 				8E4CEC7F1DB9E36700B17308 /* Navi */,
@@ -500,7 +645,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EAEAC701DBB24EF00B0EC6C /* HeaderView.xib in Resources */,
-				8E25C9BA1DB8CB5D008F5EC3 /* LaunchScreen.storyboard in Resources */,
+				8E00C9701DBC56B5005EB0E2 /* TopCell.xib in Resources */,
+				8EAEACDA1DBBC47900B0EC6C /* HomeCell.xib in Resources */,
 				8E25C9B71DB8CB5D008F5EC3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -560,46 +706,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EAEACCF1DBBB95600B0EC6C /* HomeNetwork.m in Sources */,
 				8EAEACB31DBB797700B0EC6C /* HomeChildController.m in Sources */,
 				8EAEACB01DBB710100B0EC6C /* CategoryChildController.m in Sources */,
+				8EAEACE21DBBCD4400B0EC6C /* HomeViewModel.m in Sources */,
+				8E00C9771DBC5D10005EB0E2 /* CustomFlowLayout.m in Sources */,
+				8E00C96B1DBC549B005EB0E2 /* TopNetwork.m in Sources */,
 				8EAEACA61DBB67D000B0EC6C /* WMMenuItem.m in Sources */,
 				8EAEACA71DBB67D000B0EC6C /* WMMenuView.m in Sources */,
 				8E25C9DB1DB8E689008F5EC3 /* HomeController.m in Sources */,
+				8E00C98F1DBC8762005EB0E2 /* HeadImageViewModel.m in Sources */,
+				8E00C9661DBC525B005EB0E2 /* TopModel.m in Sources */,
 				8E25C9AF1DB8CB5D008F5EC3 /* AppDelegate.m in Sources */,
 				8EAA01C61DBA56EC003EB3C1 /* ZMSearchBarController.m in Sources */,
 				8E4CEC831DB9E37D00B17308 /* UIView+Extension.m in Sources */,
+				8E00C96F1DBC56B5005EB0E2 /* TopCell.m in Sources */,
 				8EAEACA81DBB67D000B0EC6C /* WMProgressView.m in Sources */,
+				8E00C9891DBC7DD7005EB0E2 /* HeadImageModel.m in Sources */,
 				8E25C9C91DB8E26F008F5EC3 /* MainViewController.m in Sources */,
+				8EAEACDD1DBBCCFB00B0EC6C /* BaseViewModel.m in Sources */,
 				8E25C9AC1DB8CB5D008F5EC3 /* main.m in Sources */,
 				8EAEAC681DBB22EE00B0EC6C /* UIColor+Extension.m in Sources */,
 				8EFA3F6B1DB91FF400B71650 /* UINavigationBar+Awesome.m in Sources */,
 				8E25C9E11DB8E6B1008F5EC3 /* CategoryController.m in Sources */,
+				8E00C9821DBC6F5D005EB0E2 /* iCarousel.m in Sources */,
+				8E00C99B1DBCB062005EB0E2 /* NSString+ZMExtension.m in Sources */,
+				8E00C9861DBC6FCC005EB0E2 /* HeadScrollView.m in Sources */,
 				8EAA01BE1DBA55F0003EB3C1 /* SearchBarBtn.m in Sources */,
 				8EAEACC81DBBB0C800B0EC6C /* HomeModel.m in Sources */,
 				8EAEAC6E1DBB24E200B0EC6C /* HeaderView.m in Sources */,
 				8E25C9E71DB8E6CB008F5EC3 /* MeController.m in Sources */,
+				8EAEACCC1DBBB91900B0EC6C /* BaseNetManager.m in Sources */,
 				8EAEACAA1DBB67D000B0EC6C /* WMPageController.m in Sources */,
 				8EAEACC51DBBB0B600B0EC6C /* BaseModel.m in Sources */,
 				8EAA01C51DBA56EC003EB3C1 /* ZMSearchBar.m in Sources */,
 				8E4CEC7A1DB9CC4100B17308 /* ComstomNaviController.m in Sources */,
 				8EAEACAD1DBB684F00B0EC6C /* BangDanController.m in Sources */,
 				8E25C9DE1DB8E696008F5EC3 /* TopController.m in Sources */,
+				8EAEACD91DBBC47900B0EC6C /* HomeCell.m in Sources */,
+				8E00C9741DBC59D8005EB0E2 /* TopViewModel.m in Sources */,
 				8EAEACA91DBB67D000B0EC6C /* WMScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8E25C9B81DB8CB5D008F5EC3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E25C9B91DB8CB5D008F5EC3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8E25C9BC1DB8CB5D008F5EC3 /* Debug */ = {

@@ -12,14 +12,15 @@
 #import "ZMSearchBarController.h"
 @interface HomeController ()
 @property (nonatomic,strong)NSArray* titleArr;
-@property (nonatomic,strong)NSArray* progressWiths;
+@property (nonatomic,strong)NSArray* types;
+@property (nonatomic,strong)NSArray* menuWidths;
 @end
 
 @implementation HomeController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = VIEWBGCOLOR;
     [self setNavi];
 }
 -(void)setNavi{
@@ -48,18 +49,29 @@
 }
 -(NSArray *)titleArr{
     if (_titleArr == nil) {
-        _titleArr = @[@"精选",@"送女票",@"海涛",@"创意生活",@"科技范",@"送基友",@"送👭",@"送同事",@"送宝贝",@"文艺风",@"奇葩搞怪",@"萌哒哒"];
+        _titleArr = @[@"精选",@"送女票",@"海涛",@"创意生活",@"科技范",@"送爸妈",@"送基友",@"送👭",@"送同事",@"送宝贝",@"设计感",@"文艺风",@"奇葩搞怪",@"萌哒哒"];
     }
     return _titleArr;
 }
-
+-(NSArray *)types{
+    if (_types == nil) {
+        _types = @[@100,@10,@129,@125,@28,@6,@26,@5,@17,@24,@127,@14,@126,@11];
+    }
+    return _types;
+}
+-(NSArray *)menuWidths{
+    if (_menuWidths == nil) {
+        _menuWidths = @[@50,@60,@50,@75,@60,@60,@60,@60,@60,@60,@60,@60,@60,@75,@60];
+    }
+    return _menuWidths;
+}
 -(instancetype)init{
     if (self = [super init]) {
         [self defaultConfig];
     }
     return self;
 }
-//menu的基础配置
+#pragma mark 菜单栏的基础配置
 -(void)defaultConfig{
     self.menuBGColor = [UIColor clearColor];
     self.menuViewLayoutMode = WMMenuViewLayoutModeLeft;
@@ -67,18 +79,17 @@
     self.titleColorNormal = MenuItemTitleColor;
     self.titleColorSelected = [UIColor redColor];
     self.menuItemWidth = ZMSCREENW * 0.25;
-    self.titleSizeNormal = 14;
-    self.titleSizeSelected = 15;
-    self.progressViewWidths = @[@35,@50,@35,@70,@50,@50,@50,@50,@50,@50,@50,@70,@50];
+    self.titleSizeNormal = MenuItemFontSize;
+    self.titleSizeSelected = MenuItemSelectedFontSize;
+    self.progressViewWidths = @[@35,@50,@35,@70,@50,@50,@50,@50,@50,@50,@50,@50,@50,@70,@50];
     self.bounces = YES;
     self.speedFactor = 5;
     self.menuView.delegate = self;
 }
 
-
+#pragma mark - WMMenuDelegate
 -(CGFloat)menuView:(WMMenuView *)menu widthForItemAtIndex:(NSInteger)index{
-    NSArray* widths = @[@50,@60,@50,@75,@60,@60,@60,@60,@60,@60,@60,@75,@60];
-    return [widths[index] integerValue];
+    return [self.menuWidths[index] integerValue];
 }
 
 #pragma mark - WMPageControllerDelegate
@@ -92,7 +103,9 @@
     return  self.titleArr[index];
 }
 -(UIViewController *)pageController:(WMPageController *)pageController viewControllerAtIndex:(NSInteger)index{
-    return [[HomeChildController alloc]init];
+    HomeChildController* vc = [[HomeChildController alloc]init];
+    vc.type = [self.types[index] integerValue];
+    return vc;
 }
 
 

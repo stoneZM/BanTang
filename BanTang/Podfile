@@ -12,5 +12,6 @@ target 'BanTang' do
   pod 'MJRefresh'
   pod 'SVProgressHUD'
   pod 'MJExtension'
+  pod 'SDWebImage'
 
 end

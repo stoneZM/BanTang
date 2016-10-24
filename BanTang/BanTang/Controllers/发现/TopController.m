@@ -15,8 +15,8 @@
 @implementation TopController
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor colorWithHex:0xFAF5f5 andAlpha:1];
     [self setNavi];
+    self.view.backgroundColor = VIEWBGCOLOR;
 
 }
 -(NSArray *)titleArr{
@@ -37,8 +37,8 @@
     self.titleColorNormal = MenuItemTitleColor;
     self.titleColorSelected = [UIColor redColor];
     self.menuItemWidth = ZMSCREENW * 0.25;
-    self.titleSizeNormal = 13;
-    self.titleSizeSelected = 14;
+    self.titleSizeNormal = MenuItemFontSize;
+    self.titleSizeSelected = MenuItemSelectedFontSize;
     self.progressViewWidths = @[@55,@45,@65,@45];
     self.bounces = YES;
     self.speedFactor = 5;
@@ -65,7 +65,9 @@
    return  self.titleArr[index];
 }
 -(UIViewController *)pageController:(WMPageController *)pageController viewControllerAtIndex:(NSInteger)index{
-    return [[BangDanController alloc]init];
+   BangDanController* vc = [[BangDanController alloc]init];
+    vc.type = index+1;
+    return vc;
 }
 
 

@@ -14,6 +14,10 @@
 
 @implementation HomeDataModel
 
++(NSDictionary*)mj_objectClassInArray{
+    return @{@"items":[HomeDataItemModel class]};
+}
+
 @end
 
 @implementation HomeDataPageModel
@@ -21,6 +25,7 @@
 @end
 
 @implementation HomeDataItemModel
+
 
 @end
 

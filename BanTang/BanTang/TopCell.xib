@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TopCell">
+            <rect key="frame" x="0.0" y="0.0" width="177" height="243"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="177" height="243"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D8w-zD-eUu">
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="D8w-zD-eUu" secondAttribute="height" multiplier="1:1" id="FvW-yK-P2F"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LrN-Vw-QM4">
+                        <fontDescription key="fontDescription" name="Helvetica-BoldOblique" family="Helvetica" pointSize="11"/>
+                        <color key="textColor" red="0.22352941176470587" green="0.18823529411764706" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="410-J5-x1f">
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="内容" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IfJ-kS-Ipr">
+                        <fontDescription key="fontDescription" name="Helvetica-BoldOblique" family="Helvetica" pointSize="11"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.59999999999999998" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="LrN-Vw-QM4" firstAttribute="top" secondItem="D8w-zD-eUu" secondAttribute="bottom" constant="5" id="0d2-1O-EMv"/>
+                <constraint firstItem="410-J5-x1f" firstAttribute="leading" secondItem="LrN-Vw-QM4" secondAttribute="leading" id="2B5-8K-1VO"/>
+                <constraint firstItem="IfJ-kS-Ipr" firstAttribute="leading" secondItem="LrN-Vw-QM4" secondAttribute="leading" id="7jh-dp-Xjh"/>
+                <constraint firstItem="LrN-Vw-QM4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="GwZ-fT-8am"/>
+                <constraint firstItem="IfJ-kS-Ipr" firstAttribute="top" secondItem="LrN-Vw-QM4" secondAttribute="bottom" constant="5" id="QOD-ST-c8a"/>
+                <constraint firstAttribute="trailing" secondItem="D8w-zD-eUu" secondAttribute="trailing" id="XWm-5H-vxy"/>
+                <constraint firstItem="D8w-zD-eUu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="dLx-8I-Oqw"/>
+                <constraint firstItem="D8w-zD-eUu" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="lKd-DX-WwJ"/>
+                <constraint firstAttribute="bottom" secondItem="410-J5-x1f" secondAttribute="bottom" constant="10" id="sTy-rl-n6o"/>
+            </constraints>
+            <size key="customSize" width="177" height="243"/>
+            <connections>
+                <outlet property="contentLb" destination="IfJ-kS-Ipr" id="d8b-wW-jCh"/>
+                <outlet property="coverIV" destination="D8w-zD-eUu" id="8J4-lB-kxs"/>
+                <outlet property="priceLb" destination="410-J5-x1f" id="qae-x3-KWM"/>
+                <outlet property="titleLb" destination="LrN-Vw-QM4" id="hoV-dO-W35"/>
+            </connections>
+            <point key="canvasLocation" x="-122.5" y="-35.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

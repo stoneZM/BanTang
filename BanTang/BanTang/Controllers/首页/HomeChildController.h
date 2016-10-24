@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeChildController : UIViewController
+@interface HomeChildController : UITableViewController
+@property (nonatomic,assign)NSInteger type;
 
 @end

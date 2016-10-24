@@ -29,6 +29,7 @@
     self.hearderView = headerView;
     headerView.height = ZMSCREENH*0.4;
     self.tableView.tableHeaderView = headerView;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 }
 -(void)addBtnToNavi{
     UIBarButtonItem* fixBtn = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
@@ -61,13 +62,10 @@
 //-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
 //    return 30;
 //}
-
-
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
     CGFloat offsetY = scrollView.contentOffset.y;
     self.hearderView.tableViewOffset = offsetY;
 }
-
 
 
 @end

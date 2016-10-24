@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BangDanController : UIViewController
+@interface BangDanController : UICollectionViewController
+
+@property (nonatomic,assign)NSInteger type;
 
 @end
