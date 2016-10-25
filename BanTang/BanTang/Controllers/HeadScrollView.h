@@ -11,8 +11,10 @@
 #import "HeadImageModel.h"
 @interface HeadScrollView : UIView
 
-@property (nonatomic,strong)HeadImageDataModel* model;
+//@property (nonatomic,strong)HeadImageDataModel* model;
+@property (nonatomic,strong)NSMutableArray* images;
 
--(instancetype)initHeaderView;
+
+
 
 @end

@@ -60,4 +60,13 @@
              completionhandle(isSuccess);
      }];
 }
+
+//获取下一页所url中所需的id
+-(NSString*)getidForRow:(NSInteger)row{
+    HomeDataItemModel* model = self.dataArr[row];
+    long pathID = model.pathid;
+    return [NSString stringWithFormat:@"%ld",pathID];
+}
+
+
 @end

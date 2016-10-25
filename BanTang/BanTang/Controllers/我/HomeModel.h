@@ -56,6 +56,7 @@
 @property (nonatomic, strong) NSString *shortTitle;
 @property (nonatomic, strong) HomeDataItemAuthorModel *author;
 @property (nonatomic, strong) NSString *coverWebpUrl;
+@property (nonatomic, assign) long  pathid;
 @end
 
 @interface HomeDataPageModel : BaseModel

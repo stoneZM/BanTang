@@ -11,6 +11,7 @@
 #import "HomeCell.h"
 #import "HeadScrollView.h"
 #import "HeadImageViewModel.h"
+#import "HomeDetailController.h"
 @interface HomeChildController ()
 @property (nonatomic,strong)HomeViewModel* viewModel;
 @property (nonatomic,strong)HeadScrollView* scrollImageView;
@@ -35,7 +36,7 @@
 //属性懒加载
 -(HeadScrollView *)scrollImageView{
     if (_scrollImageView == nil) {
-        _scrollImageView = [[HeadScrollView alloc]initHeaderView];
+        _scrollImageView = [[HeadScrollView alloc]init];
     }
     return _scrollImageView;
 }
@@ -69,7 +70,7 @@
     }];
     [self.imageViewModel getCacheDataCompletionHandle:^(BOOL isSuccess) {
         if (isSuccess) {
-            self.scrollImageView.model = self.imageViewModel.model;
+            self.scrollImageView.images = [self.imageViewModel getImages];
         }
     }];
 }
@@ -91,7 +92,7 @@
                             [self.tableView.mj_header endRefreshing];
                             return ;
                         }
-                        self.scrollImageView.model = self.imageViewModel.model;
+                        self.scrollImageView.images = [self.imageViewModel getImages];
                     }];
             }];
     [self.tableView.mj_header beginRefreshing];
@@ -158,6 +159,10 @@
             scrollView.contentInset = UIEdgeInsetsMake(-sectionHeaderHeight, 0, 0, 0);
         }
     }
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    HomeDetailController* vc = [[HomeDetailController alloc]initWithPathId:[self.viewModel getidForRow:indexPath.section]];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="236" id="KGk-i7-Jjw" customClass="GoodDetailCell">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="236"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="366" height="235"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哈哈哈哈哈" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8z1-Wz-Glv">
+                        <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" red="0.22352941176470587" green="0.18823529411764706" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥123" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8MG-nc-9jA">
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FKL-Y0-hRo">
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.59999999999999998" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toolbar_btn_like_fault" translatesAutoresizingMaskIntoConstraints="NO" id="fHj-Cs-7MS"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="swP-hQ-wuN">
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.59999999999999998" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="swP-hQ-wuN" secondAttribute="trailing" constant="5" id="3Md-Z4-OGd"/>
+                    <constraint firstItem="swP-hQ-wuN" firstAttribute="top" secondItem="fHj-Cs-7MS" secondAttribute="bottom" constant="10" id="3T4-xe-ow4"/>
+                    <constraint firstItem="FKL-Y0-hRo" firstAttribute="centerY" secondItem="fHj-Cs-7MS" secondAttribute="centerY" id="5IC-u1-OXC"/>
+                    <constraint firstItem="8MG-nc-9jA" firstAttribute="top" secondItem="8z1-Wz-Glv" secondAttribute="bottom" constant="10" id="7ev-SU-3qf"/>
+                    <constraint firstItem="FKL-Y0-hRo" firstAttribute="top" secondItem="8MG-nc-9jA" secondAttribute="bottom" constant="10" id="A1o-w0-18m"/>
+                    <constraint firstItem="swP-hQ-wuN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="5" id="Bif-IO-unt"/>
+                    <constraint firstItem="8MG-nc-9jA" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="aCa-Nb-6fY"/>
+                    <constraint firstItem="8z1-Wz-Glv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="aQu-Y3-z16"/>
+                    <constraint firstItem="fHj-Cs-7MS" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="-10" id="fCQ-PR-2TI"/>
+                    <constraint firstItem="8z1-Wz-Glv" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="hTf-Z7-dKs"/>
+                    <constraint firstItem="FKL-Y0-hRo" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="15" id="maG-55-Jz8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descLb" destination="swP-hQ-wuN" id="pJg-Wd-kDH"/>
+                <outlet property="likesLb" destination="FKL-Y0-hRo" id="y5Y-MF-WL1"/>
+                <outlet property="priceLb" destination="8MG-nc-9jA" id="CcW-XJ-dsF"/>
+                <outlet property="titleLb" destination="8z1-Wz-Glv" id="4VQ-QJ-FhZ"/>
+            </connections>
+            <point key="canvasLocation" x="-73" y="16"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="toolbar_btn_like_fault" width="24" height="24"/>
+    </resources>
+</document>

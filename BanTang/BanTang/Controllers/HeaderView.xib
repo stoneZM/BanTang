@@ -93,7 +93,7 @@
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="2bk-96-IhT" secondAttribute="bottom" id="0cw-A8-xuA"/>
                 <constraint firstItem="2bk-96-IhT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2Ci-H8-ka3"/>
@@ -118,7 +118,7 @@
                 <outlet property="coverIV" destination="6U4-Pr-ER6" id="lTU-C9-Xa3"/>
                 <outlet property="coverIvCons" destination="BVv-pj-30D" id="IgW-9Z-JCE"/>
             </connections>
-            <point key="canvasLocation" x="-491" y="-153"/>
+            <point key="canvasLocation" x="-570" y="-250"/>
         </view>
     </objects>
     <resources>

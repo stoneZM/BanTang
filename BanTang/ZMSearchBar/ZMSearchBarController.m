@@ -24,6 +24,7 @@
     searchBar.frame = CGRectMake(0, 0, 200, 30);
 }
 -(void)viewDidLoad{
+    [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     [self addSearchBarToNavi];
 }

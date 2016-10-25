@@ -25,7 +25,9 @@
 @end
 
 @implementation HomeDataItemModel
-
++(NSDictionary*)mj_replacedKeyFromPropertyName{
+    return @{@"pathid":@"id"};
+}
 
 @end
 

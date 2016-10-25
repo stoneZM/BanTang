@@ -60,7 +60,6 @@
     return button;
 }
 -(void)back{
-    ZMLogfunc;
     [self popViewControllerAnimated:YES];
 }
 

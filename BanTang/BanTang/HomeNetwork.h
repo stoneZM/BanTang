@@ -9,6 +9,8 @@
 #import "BaseNetManager.h"
 #import "HomeModel.h"
 #import "HeadImageModel.h"
+#import "HomeDetailModel.h"
+#import "GoodsDetailModel.h"
 typedef NS_ENUM(NSInteger,HomeType){
 
     HomeTypeJingXuan = 100,
@@ -35,5 +37,11 @@ typedef NS_ENUM(NSInteger,HomeType){
 
 //获取表头的滚动视图
 +(id)getHeadImageModelCompleteHandle:(void(^)(id responseObj,NSError* error))completeHandle;
+
+//获取每一个单元的详情页
++(id)getDetailWithUr:(NSString*)url completeHandle:(void(^)(id responseObj,NSError* error))completeHandle;
+
+//获取下一级的详情
++(id)getNextDetailWithURLId:(NSString*)urlID completeHandle:(void(^)(id responseObj,NSError* error))completeHandle;
 
 @end

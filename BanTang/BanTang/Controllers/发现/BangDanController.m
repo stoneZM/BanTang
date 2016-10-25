@@ -73,9 +73,9 @@ static NSString* headerViewIdentifier = @"HeadView";
         return header;
     }
     //如果底部视图
-    //    if([kind isEqualToString:UICollectionElementKindSectionFooter]){
-    //
-    //    }
+//        if([kind isEqualToString:UICollectionElementKindSectionFooter]){
+//
+//        }
     return nil;
 }
 

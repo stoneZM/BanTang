@@ -20,7 +20,6 @@
 {
     UIPageControl* _pageControl;
     iCarousel* _ic;
-    NSMutableArray<HeadImageDataBannerModel*>* _modelArr;
 }
 
 #pragma mark 添加头部滚动视图
@@ -43,18 +42,20 @@
     return _pageControl;
 }
 
--(void)setModel:(HeadImageDataModel *)model{
-    if (_modelArr.count!=0) {
-        return;
+-(void)setImages:(NSMutableArray *)images{
+    if (images.count == 0) {
+        return ;
+    }if (images.count == 1) {
+        _pageControl.hidden = YES;
+        _ic.scrollEnabled = NO;
     }
-    _modelArr = [NSMutableArray arrayWithArray:model.banners];
-     self.pageControl.numberOfPages = _modelArr.count;
-    NSLog(@"------%ld-----",_modelArr.count);
+    _images = images;
+    self.pageControl.numberOfPages = images.count;
     [_ic reloadData];
 }
 
 /** 头部视图 */
--(instancetype)initHeaderView{
+-(instancetype)init{
     if (self = [super init]) {
         [self addIC];
     }
@@ -87,15 +88,15 @@
 #pragma mark -  iCarouselDelegate,iCarouselDataSource
 -(NSInteger)numberOfItemsInCarousel:(iCarousel *)carousel
 {
-    return _modelArr.count;
+    return  self.images.count;
 }
 -(UIView *)carousel:(iCarousel *)carousel viewForItemAtIndex:(NSInteger)index reusingView:(UIView *)view
 {
     if (view == nil) {
-        view = [[UIView alloc]initWithFrame:CGRectMake(0, 0, ZMSCREENW, HEADERSCROLLVIEWH)];
+        view = [[UIView alloc]initWithFrame:CGRectMake(0, 0, ZMSCREENW, self.height)];
         UIImageView* imageView = [[UIImageView alloc]init];
         imageView.tag = 100;
-        imageView.contentMode = UIViewContentModeScaleToFill;
+        imageView.contentMode = UIViewContentModeScaleAspectFill;
         view.clipsToBounds = YES;
         [view addSubview:imageView];
         [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -104,7 +105,7 @@
         imageView.backgroundColor = ZMRandomColor;
     }
     UIImageView* imageView = [view viewWithTag:100];
-    NSURL* url = [NSURL URLWithString:_modelArr[index].imageUrl];
+    NSURL* url = [NSURL URLWithString: (NSString*)self.images[index]];
     [imageView sd_setImageWithURL:url];
     return view;
 }

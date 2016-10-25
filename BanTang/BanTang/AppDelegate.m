@@ -22,10 +22,10 @@
     MainViewController* mainVC = [[MainViewController alloc]init];
     self.window.rootViewController = mainVC;
     [self.window makeKeyAndVisible];
-//    [HomeNetwork getHeadImageModelCompleteHandle:^(id responseObj, NSError *error) {
-//
-//    }];
-    NSLog(@"%@",NSHomeDirectory());
+//[HomeNetwork getNextDetailWithURLId:@"1072846" completeHandle:^(id responseObj, NSError *error) {
+//    NSLog(@"8888888");
+//}];
+     NSLog(@"%@",NSHomeDirectory());
     return YES;
 }
 

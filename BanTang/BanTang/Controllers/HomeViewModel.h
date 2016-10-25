@@ -14,9 +14,14 @@
 
 @property (nonatomic,assign)HomeType type;
 
+
+
 -(instancetype)initWithHomeType:(HomeType)type;
 
 -(HomeDataItemModel*)itemModelForRow:(NSInteger)row;
+
+//获取下一页所url中所需的id 
+-(NSString*)getidForRow:(NSInteger)row;
 
 
 

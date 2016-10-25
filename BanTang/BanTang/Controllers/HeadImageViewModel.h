@@ -13,5 +13,7 @@
 
 @property (nonatomic,strong)HeadImageDataModel* model;
 
+//获取轮换图片
+-(NSMutableArray*)getImages;
 
 @end
